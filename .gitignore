@@ -2,3 +2,4 @@
 neo4j/data/
 chromadb/
 __pycache__/
+data/watch

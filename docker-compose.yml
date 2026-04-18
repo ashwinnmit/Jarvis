@@ -15,5 +15,8 @@ services:
     container_name: jarvis-chromadb
     ports:
       - "8000:8000"
+    environment:
+      - IS_PERSISTENT=TRUE
+      - PERSISTENT_DIRECTORY=/data
     volumes:
-      - ./chromadb:/chroma/chroma
+      - ./chromadb:/data
