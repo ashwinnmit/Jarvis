@@ -1,0 +1,4 @@
+.env
+neo4j/data/
+chromadb/
+__pycache__/
